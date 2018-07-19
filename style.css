@@ -1,0 +1,107 @@
+header {
+  border-color: #d2d5db;
+  margin: 25px;
+}
+
+main {
+  margin: 25px;
+}
+
+footer {
+  margin: 25px;
+}
+
+footer div{
+  border-style: dashed;
+}
+
+footer p{
+  padding: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: teal;
+}
+
+.logo {
+  overflow: hidden;
+  border-style: dashed;
+  padding: 10px;
+}
+
+.logo img{
+  float: left;
+  width: 50px;
+  height: 50px;
+}
+
+.logo ul{
+  float: right;
+  list-style: none;
+}
+
+.logo li{
+  float: right;
+  display: inline;
+  margin-left: 10px;
+}
+
+.content-slider{
+  border-style: dotted;
+  padding: 10px;
+}
+
+.section{
+  margin-top:15px;
+  overflow: hidden;
+}
+.boxs {
+}
+
+.left-rail {
+  width: 68%;
+  float: left;
+}
+
+.left-rail div {
+  border-style: solid;
+  margin-right: 20px;
+  width: 30%;
+  float: left;
+}
+
+.left-rail < div {
+
+}
+
+.left-rail p {
+  margin: 10px;
+  padding: 50px;
+}
+
+.right-rail {
+  width: 33%;
+  margin-left: auto;
+}
+
+.right-rail div {
+  border-style: groove;
+}
+
+.right-rail p {
+  margin: 10px;
+  padding: 10px;
+}
+
+.row {
+  margin-right: 35px;
+  width: 31%;
+  margin-top: 20px;
+  float: left;
+  border-style: dashed;
+}
+
+.row p{
+  padding: 17px;
+}
