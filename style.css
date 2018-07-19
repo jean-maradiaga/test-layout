@@ -12,11 +12,11 @@ footer {
 }
 
 footer div{
-  border-style: dashed;
+  border-style: dotted;
 }
 
 footer p{
-  padding: 15px;
+  /*padding: 15px;*/
 }
 
 a {
@@ -24,10 +24,14 @@ a {
   color: teal;
 }
 
+p {
+  overflow-wrap: break-word;
+}
+
 .logo {
   overflow: hidden;
   border-style: dashed;
-  padding: 10px;
+  /*padding: 10px;*/
 }
 
 .logo img{
@@ -49,7 +53,7 @@ a {
 
 .content-slider{
   border-style: dotted;
-  padding: 10px;
+  /*padding: 10px;*/
 }
 
 .section{
@@ -77,7 +81,7 @@ a {
 
 .left-rail p {
   margin: 10px;
-  padding: 50px;
+  /*padding: 50px;*/
 }
 
 .right-rail {
@@ -91,7 +95,7 @@ a {
 
 .right-rail p {
   margin: 10px;
-  padding: 10px;
+  padding: 3px;
 }
 
 .row {
@@ -103,5 +107,5 @@ a {
 }
 
 .row p{
-  padding: 17px;
+  /*padding: 17px;*/
 }
