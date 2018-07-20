@@ -135,10 +135,14 @@ a {
  }
 /* Media Query */
 
-@media screen and (max-width: 1200px){
-  div {
-    float: none;
+@media (max-width: 990px){
+  .col1{
+    width:100%;
   }
+  .col4 {
+    width:100%;
+  }
+
 }
 
 
