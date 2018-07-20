@@ -1,5 +1,8 @@
 * {
   box-sizing: border-box;
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box;
   overflow-wrap: break-word;
 }
 
@@ -12,7 +15,7 @@ header {
 }
 
 footer div{
-  border-style: dotted;
+  /* border-style: dotted;  */
 }
 
 footer p{
@@ -26,7 +29,7 @@ a {
 
 .nav {
   overflow: hidden;
-  border-style: dashed;
+  /* border-style: dashed;  */
   padding: 10px;
   margin-bottom: 10px;
 }
@@ -50,17 +53,15 @@ a {
 
 .row {
   border-style: dotted;
-  padding: 10px;
   margin-bottom: 10px;
 }
 
 .middle {
-  overflow: hidden;
+  border-style: none;
 }
 
 .right-rail {
   float:left;
-  width: 70%;
 }
 
 .top-row {
@@ -68,11 +69,8 @@ a {
 }
 
 .top-row div {
-  float: left;
   margin-bottom: 10px;
   border-style: dashed;
-  width: 30.3%;
-  margin-right: 10px;
 }
 
 .top-row div p {
@@ -84,23 +82,65 @@ a {
 }
 
 .bottom-row div {
-  float: left;
   margin-bottom: 10px;
   border-style: double;
-  width: 46%;
-  margin-right: 10px;
 }
 
 .bottom-row div p {
-  padding: 10px;
+  padding: 7px;
 }
 
 .left-rail {
-  float: right;
-  width: 30%;
   border-style: dashed;
+  padding: 10px;
 }
 
-.left-rail p{
-  padding: 5px;
+.col {
+  overflow: hidden;
+  float: left;
 }
+
+.col0{
+  width: 100%;
+}
+
+.col1 {
+  width: 75%;
+}
+
+.col2 {
+  width: 50%;
+}
+
+.col3 {
+  width: 33.333333333%;
+}
+
+.col4 {
+  width: 25%;
+}
+
+
+/**
+ * Clear fix
+ */
+ .row::before,
+ .row::after {
+     content: " "; /* 1 */
+     display: table; /* 2 */
+ }
+
+ .row::after {
+     clear: both;
+ }
+/* Media Query */
+
+@media screen and (max-width: 1200px){
+  div {
+    float: none;
+  }
+}
+
+
+
+
