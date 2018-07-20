@@ -145,6 +145,17 @@ a {
 
 }
 
+@media (max-width: 340px){
+  .nav img{
+    display:none;
+  }
+  .nav ul{
+    position:relative;
+    right: 20%;
+  }
+}
+
+
 
 
 

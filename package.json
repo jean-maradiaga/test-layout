@@ -1,0 +1,19 @@
+{
+  "name": "test-layout",
+  "version": "1.0.0",
+  "description": "Practice for box models",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jean-maradiaga/test-layout.git"
+  },
+  "author": "Jean P. Maradiaga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jean-maradiaga/test-layout/issues"
+  },
+  "homepage": "https://github.com/jean-maradiaga/test-layout#readme"
+}
